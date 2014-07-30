@@ -1,0 +1,107 @@
+/* The Gnutenberg Press - default CSS2 stylesheet */
+
+/* 
+
+Any generated element will have a class "tei" and a class "tei-<elem>"
+where <elem> is the element name in TEI. 
+The order of statements is important !!! 
+
+*/
+
+body.tei		        { margin: 4ex 10%; text-align: justify }
+
+div.frontpage      	        { margin: 4em 0em }
+div.contents       	        { margin: 2em 0em }
+div.colophon       	        { margin: 4em 0em; font-size: 80% } 
+div.footnotes      	        { margin: 2em 0em }
+div.figure-caption 	        { margin: 1em 0em; text-align: center; font-size: 80% }
+div.tb                          { text-align: center; }
+
+blockquote.tei	     	        { margin: 2em 4em }
+div.tei              	        { margin: 2em 0em }
+div.tei-epigraph     	        { margin: 0em 0em 1em 10em; font-size: small; }
+div.tei-dateline	        { margin: 1ex 0em; text-align: right }
+div.tei-salute                  { margin: 1ex 0em; }
+div.tei-signed                  { margin: 1ex 0em; text-align: right }
+div.tei-byline                  { margin: 1ex 0em; }
+                                /* calculate from size of body = 80% */
+div.marginnote		        { margin: 0em 0em 0em -12%; width: 11%; float: left; font-size: 80%}
+div.tei-lg                      { margin: 1em 0em 1em 0em; text-align: left }
+                                /* indent verse continuation lines 4em */
+div.pubdate          	        { margin: 4em 0em; }
+
+p.tei              	        { margin: 1em 0em; }
+p.noindent	     	        { margin: 1em 0em; text-indent: 0em }
+
+p.tei-l		                { margin: 0em 0em 0em 4em; text-align: left; 
+                     	          text-indent: -4em }
+div.tei-sp                      { margin: 1em 0em 1em  2em }
+div.tei-speaker	                { margin: 0em 0em 1em -2em;
+                        	  font-weight: bold; text-indent: 0em }
+div.tei-stage                   { margin: 1em 0em; font-weight: normal; font-style: italic }
+span.tei-stage	     	        { font-weight: normal; font-style: italic }
+
+div.tei-eg             	        { padding: 1em; font-size: 80%; 
+                     	          color: black; background-color: #eee }
+
+p.floatleft                     { float: left;  margin: 1em 2em 1em 0; }
+p.floatright                    { float: right; margin: 1em 0 1em 2em; }
+
+hr.doublepage	     	        { margin: 4em 0em; height: 5px }
+hr.page            	        { margin: 4em 0em }
+
+h1.tei-author                   { margin-top: 1em; margin-bottom: 1em; font-size: 173% }
+h1.tei-title                    { margin-top: 1em; margin-bottom: 1em; font-size: 207% }
+h1.tei		     	        { margin-top: 1em; margin-bottom: 1em; font-size: 173% }
+h2.tei	     	                { margin-top: 1em; margin-bottom: 1em; font-size: 144% }
+h3.tei	             	        { margin-top: 1em; margin-bottom: 1em; font-size: 120% }
+h4.tei        	     	        { margin-top: 1em; margin-bottom: 1em; font-size: 100% }
+
+ol.tei, ul.tei, dl.tei          { margin: 1em 0em }
+ul.simple          	        { margin: 1em 0em; list-style-type: none }
+ul.toc             	        { margin: 1em 0em; list-style-type: none }
+
+li.tei                 	        { margin: 1em 0em }
+dd.tei                          { display: compact; }
+dt.tei                 	        { font-weight: bold; }
+ul.toc li          	        { margin: 0em }
+
+pre.tei                         { margin: 0em; }
+
+span.tei-title                  { font-style: italic }
+span.tei-pb                     { position: absolute; left: 1%; width: 8%;
+                                  font-size: 8pt; font-style: normal; }
+span.name-ship     	        { font-style: italic }
+span.footnoteref   	        { vertical-align: super; font-size: 60% }
+span.code          	        { font-family: monospace; font-size: 110%; }
+
+dl.tei                 	        { }
+dl.tei dt              	        { }
+dl.tei dd              	        { margin: 0em 0em 0em 4em }
+
+dl.footnote        	        { font-size: 80% }
+dl.footnote dt     	        { font-weight: normal; text-align: right; 
+                     	          float: left; width: 3em }
+dl.footnote dd     	        { margin: 0em 0em 1ex 4em }
+
+ul.tei-castlist 		{ margin: 0em; list-style-type: none }
+li.tei-castitem		        { margin: 0em; }
+table.tei-castgroup     	{ margin: 0em; }
+ul.tei-castgroup		{ margin: 0em; list-style-type: none; 
+				  padding-right: 2em; border-right: solid black 2px; }
+caption.tei-castgroup-head	{ caption-side: right; width: 50%; text-align: left; 
+				  vertical-align: middle; padding-left: 2em; }
+*.tei-roledesc  		{ font-style: italic }
+*.tei-set			{ font-style: italic }
+
+table.rules                     { border-collapse: collapse; }
+
+table.rules caption,
+table.rules th,
+table.rules td                  { border: 1px solid black; }
+
+th.tei			        { padding: 0em 1em }
+td.tei			        { padding: 0em 1em }
+
+img.tei-formula                 { vertical-align: middle; }
+
