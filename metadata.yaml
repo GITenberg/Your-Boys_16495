@@ -1,0 +1,32 @@
+_repo: Your-Boys_16495
+_version: 0.1.0
+covers:
+- cover_type: archival
+  image_path: 16495-tei/images/cover.png
+creator:
+  author:
+    agent_name: Smith, Gipsy
+    aliases:
+    - Smith, Rodney
+    - Smith, Gypsy
+    birthdate: 1860
+    deathdate: 1947
+    gutenberg_agent_id: '6750'
+    url: http://www.gutenberg.org/2009/agents/6750
+    wikipedia: http://en.wikipedia.org/wiki/Rodney_%22Gipsy%22_Smith
+description: ''
+gutenberg_bookshelf: World War I
+gutenberg_issued: '2005-08-09'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '16495'
+  lccn: '18008479'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'World War, 1914-1918 -- Religious aspects'
+- !lcc 'D501'
+title: Your Boys
+url: http://www.gutenberg.org/ebooks/16495
